@@ -1,16 +1,23 @@
 /* Global styles */
-body {
+html, body {
+    height: 100%;
     margin: 0;
+    padding: 0;
+  }
+  
+  body {
     font-family: 'Roboto', sans-serif;
     background-image: url('../img/green.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;  /* ? this line makes it cover full height */
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* still needed */
     padding: 2rem;
   }
+  
   
   
   
@@ -20,9 +27,9 @@ body {
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    overflow: hidden;
     padding: 2rem;
   }
+  
   
   /* Masthead */
   .masthead {
